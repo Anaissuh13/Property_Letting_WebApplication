@@ -1,0 +1,38 @@
+.backdrop {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 500;
+}.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.image {
+  max-width: 90vw;       
+  max-height: 80vh;      
+  object-fit: contain;  /* scale whole image in view */
+  border-radius: 4px;   
+  box-shadow: 0 2px 12px rgba(0,0,0,0.5);
+}
+.close {
+  position: absolute; top: 0.5rem; right: 0.5rem;
+  background: transparent; border: none;
+  font-size: 2rem; color: #fff; cursor: pointer;
+  z-index: 10;
+}
+.prev, .next {
+  position: absolute; top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.4);
+  border: none; color: #fff;
+  font-size: 2rem; padding: 0.5rem;
+  cursor: pointer; 
+  z-index: 10;
+}
+.prev { left: 0.5rem; }
+.next { right: 0.5rem; }

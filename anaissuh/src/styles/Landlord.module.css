@@ -1,0 +1,45 @@
+/* hero section with pink overlay */
+.hero {
+  position: relative;
+  padding-top: 6rem;  /* under fixed header */
+  min-height: 100vh;
+  color: beige;
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(171, 67, 171, 0.4); 
+  color: #222;
+  padding: 2rem;
+}
+
+/* welcome text */
+.welcome {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: beige;
+  margin-bottom: 2rem;
+  padding-top: 7rem;
+}
+
+/* table header */
+.thead th {
+  background-color: #d63384;
+  color: #fff;
+  border: none;
+}
+
+/* row hover */
+.table-hover tbody tr:hover {
+  background-color: rgba(214,51,132,0.2);
+}
+
+.addrLink {
+  text-decoration: none;
+  color: #111;
+}
+.addrLink:hover {
+  text-decoration: underline;
+}
+

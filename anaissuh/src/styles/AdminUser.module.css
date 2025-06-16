@@ -1,0 +1,16 @@
+.hero {
+  position: relative;
+  background: url('/images/hero-bg.jpg') center/cover no-repeat;
+  color: beige;
+  font-weight: 900;
+}
+.overlay {
+  background: rgba(197,56,197,0.4);
+  padding: 2rem;
+}
+.title {
+    margin-top: 7rem;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 2rem;
+}

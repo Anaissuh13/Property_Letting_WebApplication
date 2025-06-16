@@ -1,0 +1,28 @@
+/* about-section fills one full viewport height */
+.about {
+  background:#d99bb7;           /* light pink background */
+  min-height:100vh;             /* fill full screen */
+  display:flex;                 /* center content */
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:2rem;                 /* some breathing room */
+}
+
+/* pink heading to match theme */
+.about h2 {
+  color:#df4592;                /* Anaissuh pink */
+  font-size:2rem;
+  margin-bottom:1rem;
+  font-weight:600;
+}
+
+/* paragraph styling */
+.about p {
+  max-width:600px;              /* comfortable line length */
+  margin:0 auto;
+  color:#333;
+  font-size:1.1rem;
+  line-height:1.6;
+}

@@ -1,0 +1,47 @@
+/* import Montserrat from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+html,body,#__next {
+  margin:0;
+  padding:0;
+  height:100%;
+  font-family:'Montserrat',sans-serif; /* apply Montserrat */
+}
+
+* {
+  box-sizing:border-box;
+}
+
+a {
+  text-decoration:none;
+  color:inherit;
+}
+
+button {
+  font-family:inherit;
+}
+
+#__next {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}
+
+/* make the app container fill the screen */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* let the page content push the footer down */
+.app-main {
+  flex: 1 0 auto;
+}
+
+/* ensure footer doesn't overlap */
+footer {
+  flex-shrink: 0;
+}

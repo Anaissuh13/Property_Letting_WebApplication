@@ -1,0 +1,88 @@
+.main {
+  padding-top: 7rem;    
+  padding-bottom: 2rem;
+  background-color: #ddaed3;  /* fallback if image fails */
+  background-blend-mode: multiply;
+  color: #222;
+}
+
+/* Title under header */
+.heading {
+  margin: 0 1.5rem 2rem;
+  padding-left: 2.5em;
+  font-size: 2rem;
+  color: beige;
+  font-weight: 600;
+  text-align: left;
+}
+
+/* 2-row grid of 6 cards */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* -------------------------
+   Carousel modal
+   ------------------------- */
+.modalBackdrop {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  background: rgba(0,0,0,0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 300;
+}
+
+.carouselModal {
+  position: relative;
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.carouselImage {
+  width: auto;
+  height: 80vh;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.navButton {
+  position: absolute;
+  top: 50%; transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  z-index: 310;
+}
+
+.navButton.prev { 
+  left: 1rem; 
+}
+.navButton.next { 
+  right: 1rem; 
+}
+
+.closeButton {
+  position: absolute;
+  top: 1rem; right: 1rem;
+  background: rgba(0,0,0,0.5);
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  z-index: 310;
+}

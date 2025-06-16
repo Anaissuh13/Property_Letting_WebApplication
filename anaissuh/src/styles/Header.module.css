@@ -1,0 +1,38 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  z-index: 100;
+  backdrop-filter: none;
+}
+
+.logo {
+  cursor: pointer;
+  line-height: 1;
+}
+.logo span {
+  display: block;
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: 700;
+}
+.logo:hover span {
+  filter: brightness(1.2);
+}
+
+.menuButton {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  transition: filter 0.2s ease;
+}
+.menuButton:hover {
+  filter: brightness(1.2);
+}

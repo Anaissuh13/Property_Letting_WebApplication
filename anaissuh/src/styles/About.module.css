@@ -1,0 +1,40 @@
+.main {
+  min-height: 100vh;
+  font-family:'Montserrat',sans-serif;
+  background:#d99bb7;  /* richer pink */
+  padding-top:7rem;    /* clear fixed header */
+  padding-bottom:2rem;
+
+}
+
+/* Profile section */
+.profileContainer {
+  display:flex;
+  flex-wrap:wrap;
+  align-items:flex-start;
+  gap:2rem;
+  max-width:900px;
+  margin:2rem auto;
+  padding:0 1rem;
+  margin-top: 2rem;
+}
+.profileImage img {
+  width:250px;
+  height:250px;
+  object-fit:cover;
+  border-radius:8px;
+}
+.profileText {
+  flex:1;
+}
+.profileText h2 {
+  margin-top:0;
+  font-size:2rem;
+}
+.profileText h3 {
+  font-size:1.25rem;
+  margin-bottom:0.5rem;
+}
+.profileText p {
+  line-height:1.6;
+}

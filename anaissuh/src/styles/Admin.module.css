@@ -1,0 +1,41 @@
+/* hero section with pink overlay */
+.hero {
+  min-height: 100vh;
+  background:
+    linear-gradient(rgba(171,67,171,0.4),rgba(171,67,171,0.4)),
+    url('/images/hero-bg.jpg') center/cover no-repeat;
+  padding-top:6rem; /* room for header */
+}
+.overlay {
+  padding:2rem;
+}
+/* welcome text */
+.welcome {
+  text-align:center;
+  font-size:2rem;
+  font-weight:600;
+  color:#fff;
+  margin-bottom:2rem;
+  padding-top:7rem;
+}
+/* table header */
+.thead th {
+  background-color:#d63384;
+  color:#fff;
+  border:none;
+}
+/* row hover highlight */
+.table-hover tbody tr:hover {
+  background-color:rgba(214,51,132,0.2);
+}
+/* link inside table */
+.link {
+  color:#111;
+  text-decoration:underline;
+}
+/* force dark text on white rows */
+.table-responsive table,
+.table-responsive th,
+.table-responsive td {
+  color:#000 !important;
+}
